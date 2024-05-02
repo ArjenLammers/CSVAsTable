@@ -1,0 +1,42 @@
+{
+  "name": "CSVasTable",
+  "widgetName": "CSVasTable",
+  "version": "1.3.0",
+  "description": "Present a CSV file as a table",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "Arjen Lammers",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "config": {
+    "projectPath": "C:/Users/Arjen.Lammers/Documents/Mendix/oqlmodule",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^10.7.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "papaparse": "^5.4.1"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-native": "0.72.7"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-native": "0.72.7"
+  }
+}
